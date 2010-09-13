@@ -97,7 +97,10 @@ Integer value representing the index at the end of the range (value is inclusive
 
 = Examples =
 
-* `<div class="content">
+* Only show thumbnail for the first listed post.
+
+`
+<div class="content">
 	<?php
 	/* Only show thumbnail for the first listed post. */
 	if ( c2c_is_first() && has_post_thumbnail() ) { the_post_thumbnail(); }
@@ -112,7 +115,8 @@ Integer value representing the index at the end of the range (value is inclusive
 
 * Supply a "stripe" class if the post is at an odd index.
 
- `<div class="<?php echo ( c2c_is_odd() ? 'stripe' : '' ); ?>">`
+`<div class="<?php echo ( c2c_is_odd() ? 'stripe' : '' ); ?>">`
+
 
 == Changelog ==
 
