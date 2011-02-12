@@ -3,9 +3,9 @@ Contributors: coffee2code
 Donate link: http://coffee2code.com/donate
 Tags: post, index, position, loop, template tags, conditional, coffee2code
 Requires at least: 2.8
-Tested up to: 3.0.1
-Stable tag: 1.0
-Version: 1.0
+Tested up to: 3.1
+Stable tag: 1.0.1
+Version: 1.0.1
 
 A variety of template tags related to the index/position of a post within a loop's listing of posts.
 
@@ -120,5 +120,16 @@ Integer value representing the index at the end of the range (value is inclusive
 
 == Changelog ==
 
+= 1.0.1 =
+* Note compatibility through WP 3.1+
+* Update copyright date (2011)
+* Minor doc tweaks
+
 = 1.0 =
 * Initial release
+
+
+== Upgrade Notice ==
+
+= 1.0.1 =
+Trivial update: noted compatibility with WP 3.1+ and updated copyright date.
